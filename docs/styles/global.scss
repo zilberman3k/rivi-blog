@@ -1,0 +1,13 @@
+body{
+    direction: rtl;
+}
+.VPDocFooter .prev-next{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    .title{
+        color: var(--vp-c-text-1);
+    }
+}
+

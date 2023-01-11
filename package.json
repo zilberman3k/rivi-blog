@@ -1,0 +1,26 @@
+{
+  "name": "rivi-blog",
+  "version": "1.0.0",
+  "description": "Running With Scissors - Rivi Kalamaro Blog",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "node getArticles.mjs && vitepress dev docs",
+    "docs:build": "node getArticles.mjs && vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:preview": "vitepress preview docs --port 8080"
+  },
+  "author": "Niv Zilberman",
+  "license": "ISC",
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "prettier": "^2.8.1",
+    "remove-markdown": "^0.5.0",
+    "rtlcss": "^4.0.0",
+    "sass": "^1.57.1",
+    "vitepress": "^1.0.0-alpha.33",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}
