@@ -10,6 +10,7 @@ const redirectItems = jsonArticles
 export default defineConfig({
     lang: 'he',
     title: 'Running With Scissors',
+    description:'הפורטל של ריבי קלמרו',
     head: [
         ['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
     ],
